@@ -1,0 +1,14 @@
+h1  {
+text-align: center;
+color: goldenrod;
+text-shadow: black 1px 1px;
+}
+
+body    {
+/*background-image: url(https://ylojarvenuutiset.fi/wp-content/uploads/2022/10/movie-theater-gdc2466ee9_1920.jpg);*/
+background-color: violet;
+}
+.eka    {
+    color: white;
+    text-align: center;
+}

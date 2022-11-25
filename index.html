@@ -6,12 +6,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projekti 2 A</title>
+    <link rel="stylesheet" href="styles.css">
 
-    <script></script>
+    <script src="script.js"></script>
 </head>
 
 <body>
-    <h1>Hello world</h1>
+    <h1>Finnkino</h1>
+
+    <div class="eka">
+        <form name="TeatteriLista" id="TeatteriLista">
+            <p>Valitse tai hae haluamasi elokuvateatteri: </p>
+            <input id="Teatterit" list="Elokuvateatterit" name="Elokuvateatterit" onchange="näytäElokuvat()">
+            <datalist id="Elokuvateatterit">
+                <option value="Pääkaupunkiseutu"></option>
+                <option value="Espoo"></option>
+                <option value="Espoo: Omena"></option>
+                <option value="Espoo: SELLO"></option>
+                <option value="Helsinki"></option>
+                <option value="Helsinki: ITIS"></option>
+                <option value="Helsinki: KINOPALATSI"></option>
+                <option value="Helsinki: MAXIM"></option>
+                <option value="Helsinki: TENNISPALATSI"></option>
+                <option value="Vantaa: FLAMINGO"></option>
+                <option value="Jyväskylä: FANTASIA"></option>
+                <option value="Kuopio: SCALA"></option>
+                <option value="Lahti: KUVAPALATSI"></option>
+                <option value="Lappeenranta: STRAND"></option>
+                <option value="Oulu: PLAZA"></option>
+                <option value="Pori: PROMENADI"></option>
+                <option value="Tampere"></option>
+                <option value="Tampere: CINE ATLAS"></option>
+                <option value="Tampere: PLEVNA"></option>
+                <option value="Turku ja Raisio"></option>
+                <option value="Turku: KINOPALATSI"></option>
+                <option value="Raisio: LUXE MYLLY"></option>
+            </datalist>
+    </div>
+
+    <div class="toka">
+
+    </div>
+
+    </form>
 
 
 
