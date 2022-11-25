@@ -15,7 +15,7 @@ function näytäElokuvat()   {
 
 function loadXML()   {
    if (TeatteriID != undefined)  {
-      var url = "https://www.finnkino.fi/xml/Schedule/" + TeatteriID + "&dt" + date;
+      var url = "https://www.finnkino.fi/xml/Schedule/?area=" + TeatteriID + "&dt" + date;
       var xhttp = new XMLHttpRequest();
       xhttp.onreadystatechange = function()  {
          if (this.readyState == 4 && this.status == 200) {
